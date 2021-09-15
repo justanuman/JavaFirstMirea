@@ -1,4 +1,4 @@
-package ru.mirea.task7.task2;
+package ru.mirea.task7.task2MOVABLE;
 
 public class MovablePoint implements Movable {
     protected int x;
