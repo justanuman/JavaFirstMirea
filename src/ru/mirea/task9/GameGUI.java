@@ -1,5 +1,5 @@
 package ru.mirea.task9;
-/*игра как и просит условие*/
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
