@@ -27,9 +27,6 @@ public class Dog {
     public int getAge() {
         return age;
     }
-    public int getHumanAge() {
-        return age*7;
-    }
     public String toString(){
         return this.name+", age "+this.age;
     }
