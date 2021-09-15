@@ -1,9 +1,6 @@
 package ru.mirea.task7.task1SHAPE.task1;
 
-import lab3.task1.Circle;
-import lab3.task1.Rectangle;
-import lab3.task1.Shape;
-import lab3.task1.Square;
+
 
 public class TestShape {
     public static void main(String[] args) {
