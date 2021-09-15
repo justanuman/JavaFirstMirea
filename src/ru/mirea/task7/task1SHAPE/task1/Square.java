@@ -1,5 +1,5 @@
 package ru.mirea.task7.task1SHAPE.task1;
-
+import lab3.task1.Rectangle;
 
 public class Square extends Rectangle{
     public double side;
