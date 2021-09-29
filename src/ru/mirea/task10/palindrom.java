@@ -29,7 +29,7 @@ public class palindrom {
     public static void main(String[]args)
     {
        palindrom word= new palindrom();
-       word.palin("sasss");
+       word.palin("sas");
     }
 }
 
