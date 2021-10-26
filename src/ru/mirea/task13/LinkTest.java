@@ -1,5 +1,6 @@
 package ru.mirea.task13;
 import java.util.LinkedList;
+
 public class LinkTest {
     public static void main(String[] args) {
         LinkedList<String> states = new LinkedList<String>();
