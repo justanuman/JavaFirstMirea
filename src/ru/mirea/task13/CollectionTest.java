@@ -1,6 +1,5 @@
 package ru.mirea.task13;
 import java.util.ArrayList;
-
 public class CollectionTest {
     public static void main(String[] args) {
         ArrayList<String> states = new ArrayList<String>();
