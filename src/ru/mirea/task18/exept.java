@@ -11,7 +11,7 @@ public class exept {
                     System.out.print("no error");
             }
             catch(IOException ex){
-                System.out.println(ex.getMessage());
+                System.out.println("нет файла");
             }
         }
     }
