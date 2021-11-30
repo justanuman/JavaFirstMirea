@@ -1,6 +1,7 @@
 package ru.mirea.task17;
 enum Car {
-    ae86, FC13, Verdeleon3, GTR
+    ae86(), FC13, Verdeleon3, GTR
+
 }
 public class machineenum {
             public static void main(String[] args) {
