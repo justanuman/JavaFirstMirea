@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class Gif {
     public static void main(String[] args)  {
-        Icon icon = new ImageIcon("C:/Users/iagud/Downloads/ultrakill-v1.gif");
+        Icon icon = new ImageIcon("C:\\Users\\user\\Downloads\\ultrakill-v1.gif");
         JLabel label = new JLabel(icon);
         JFrame f = new JFrame("Animation");
         f.getContentPane().add(label);

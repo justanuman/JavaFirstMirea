@@ -1,41 +1,41 @@
 package ru.mirea.task29;
 import java.io.*;
 public class Info implements Serializable {
-        private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-        private double dollar;
-        private double rouble;
-        public Info(double dollar, double rouble){
-            this.dollar = dollar;
-            this.rouble = rouble;
-        }
+    private double dollar;
+    private double rouble;
+    public Info(double dollar, double rouble){
+        this.dollar = dollar;
+        this.rouble = rouble;
+    }
 
-        public static long getSerialVersionUID() {
-            return serialVersionUID;
-        }
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
-        public double getDollar() {
-            return dollar;
-        }
+    public double getDollar() {
+        return dollar;
+    }
 
-        public void setDollar(double dollar) {
-            this.dollar = dollar;
-        }
+    public void setDollar(double dollar) {
+        this.dollar = dollar;
+    }
 
-        public double getRouble() {
-            return rouble;
-        }
+    public double getRouble() {
+        return rouble;
+    }
 
-        public void setRouble(double euro) {
-            this.rouble = rouble;
-        }
+    public void setRouble(double euro) {
+        this.rouble = rouble;
+    }
 
 
-        @Override
-        public String toString() {
-            return "CurrencyInfo{" +
-                    "dollar=" + dollar + ", rouble=" + rouble + '}';
-        }
+    @Override
+    public String toString() {
+        return "CurrencyInfo{" +
+                "dollar=" + dollar + ", rouble=" + rouble + '}';
+    }
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         double dollar = 73.56;
         double rouble = 82.89;
@@ -53,4 +53,4 @@ public class Info implements Serializable {
 
         System.out.println(newInfo);
     }
-    }
+}
